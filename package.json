@@ -1,12 +1,11 @@
 {
-  "name": "VMS",
+  "name": "words",
   "version": "0.0.1",
   "main": "index.html",
-  "author": "",
+  "author": "Axel Royer",
   "license": "ISC",
   "private": true,
   "dependencies": {
-    "bourbon": "0.0.2",
     "gulp": "^3.8.10",
     "gulp-mocha": "^2.0.0",
     "gulp-sass": "^1.1.0"

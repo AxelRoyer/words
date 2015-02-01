@@ -1,6 +1,5 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var bourbon = require('bourbon');
 
 var paths = {};
 
@@ -19,7 +18,7 @@ paths.jsFiles = [
 gulp.task('sass-build', function () {
 	gulp.src(paths.styles)
 		.pipe(sass({
-			includePaths: bourbon.includePaths
+			includePaths: paths.styles
 		}))
 		.on("error", errorAlert)
 		.pipe(gulp.dest('./style'));
